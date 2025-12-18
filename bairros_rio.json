@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Andaraí",
+        "regiao": "Zona Norte",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.2699, -22.9149]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Barra da Tijuca",
+        "regiao": "Zona Oeste",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.3682, -23.0052]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Benfica",
+        "regiao": "Zona Norte",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.2899, -22.8533]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cacuia",
+        "regiao": "Zona Leste",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.1607, -22.7833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Centro",
+        "regiao": "Centro",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.1788, -22.9035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Cidade Nova",
+        "regiao": "Centro",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.1729, -22.9068]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Jacarepaguá",
+        "regiao": "Zona Oeste",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.3456, -22.9787]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Jardim Guanabara",
+        "regiao": "Zona Norte",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.2333, -22.8167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Leblon",
+        "regiao": "Zona Sul",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.2299, -23.0033]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Marechal Hermes",
+        "regiao": "Zona Norte",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.3445, -22.8749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Pechincha",
+        "regiao": "Zona Oeste",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.4389, -22.9256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São Conrado",
+        "regiao": "Zona Sul",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.3089, -23.0167]
+      }
+    }
+  ]
+}

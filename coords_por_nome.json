@@ -1,0 +1,1091 @@
+{
+  "Assessoria de Comunicação Social": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "701"
+  },
+  "Assessoria de Programas de Desospitalização": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "8º ANDAR - sala 801 - BL.1"
+  },
+  "Centro de Emergência Regional Barra da Tijuca": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Centro de Emergência Regional Centro": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Centro de Emergência Regional Ilha do Governador": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Centro de Emergência Regional Leblon": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Centro de Estudos": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Comitê de Gestão do Fundo Municipal de Saúde": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "701"
+  },
+  "Comitê de Gestão em Atenção Primária em Saúde": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Comitê de Ética em Pesquisa": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Conselho Municipal de Saúde": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "818 - BL.1"
+  },
+  "Coordenadoria de Gestão Administrativa": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Atenção Primária da AP1": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Atenção Primária da AP2.1": {
+    "latitude": -22.9912423,
+    "longitude": -43.253297,
+    "cep": "22451-265",
+    "bairro": "",
+    "logradouro": "Estrada da Gávea",
+    "numero": "522",
+    "complemento": "Rocinha"
+  },
+  "Coordenadoria Geral de Atenção Primária da AP2.2": {
+    "latitude": -22.9912423,
+    "longitude": -43.253297,
+    "cep": "22451-265",
+    "bairro": "",
+    "logradouro": "Estrada da Gávea",
+    "numero": "522",
+    "complemento": "Rocinha"
+  },
+  "Coordenadoria Geral de Atenção Primária da AP3.1": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Atenção Primária da AP3.2": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Atenção Primária da AP3.3": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Atenção Primária da AP4": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Atenção Primária da AP5.1": {
+    "latitude": -22.8080901,
+    "longitude": -43.1967945,
+    "cep": "21931-385",
+    "bairro": "Jardim Guanabara",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Atenção Primária da AP5.2": {
+    "latitude": -22.8855808,
+    "longitude": -43.2521024,
+    "cep": "20973-011",
+    "bairro": "Benfica",
+    "logradouro": "Avenida Dom Hélder Câmara",
+    "numero": "1390",
+    "complemento": "Manguinhos"
+  },
+  "Coordenadoria Geral de Atenção Primária da AP5.3": {
+    "latitude": -22.8855808,
+    "longitude": -43.2521024,
+    "cep": "20973-011",
+    "bairro": "Benfica",
+    "logradouro": "Avenida Dom Hélder Câmara",
+    "numero": "1390",
+    "complemento": "Manguinhos"
+  },
+  "Coordenadoria Geral de Contratualização, Controle e Auditoria": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "Bloco I Sala 701"
+  },
+  "Coordenadoria Geral de Emergência da AP 1": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 2.1": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 2.2": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 3.1": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 3.2": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 3.3": {
+    "latitude": -22.9087546,
+    "longitude": -43.1916665,
+    "cep": "20211-340",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 4": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 5.1": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 5.2": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral de Emergência da AP 5.3": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Geral do Complexo Regulador": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "8º ANDAR - sala 801 - BL.1"
+  },
+  "Coordenadoria Geral do Super Centro Carioca de Saúde": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenadoria Médico-assistencial": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenação da Regulação Ambulatorial": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenação da Regulação de Internação Hospitalar": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenação da Regulação de Urgência e Emergência": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenação de Ações de Prevenção em Saúde": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "sala 801"
+  },
+  "Coordenação de Contratualização e Acompanhamento": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "801"
+  },
+  "Coordenação de Controle e Avaliação": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "801"
+  },
+  "Coordenação de Gestão Administrativa": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenação de Supervisão e Auditoria": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "801"
+  },
+  "Coordenação Maternoinfantil Leila Diniz": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Coordenação Médico-assistencial": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Assistência Neonatal": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Assistência Obstétrica e Ginecológica": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Clinicas Cirúrgicas": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Clínicas Cirúrgicas": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Enfermagem": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Especialidades Clínicas": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Informação, Controle e Avaliação": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Infraestrutura e Logística": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Pacientes Externos": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Recursos Humanos": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento de Serviços de Apoio Diagnóstico e Terapêutico": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Departamento Maternoinfantil": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Divisão de Informação, Controle e Avaliação": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Divisão de Infraestrutura e Logística": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Divisão de Pacientes Externos": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Divisão de Recursos Humanos": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Divisão de Serviços de Apoio Diagnóstico e Terapêutico": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Centro Cirúrgico": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Clínicas Cirúrgicas": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Enfermagem": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Especialidades Clínicas": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Informação, Controle e Avaliação": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Infraestrutura e Logística": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Pacientes Externos": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Recursos Humanos": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Gerência de Serviços de Apoio, Diagnóstico e Terapêutico": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Cardoso Fontes": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital do Andaraí": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Maternidade Alexander Fleming": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Maternidade Carmela Dutra": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Maternidade da Rocinha": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Maternidade Fernando Magalhães": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Maternidade Herculano Pinheiro": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Maternidade Maria Amélia Buarque de Hollanda": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Barata Ribeiro": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal de Piedade": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Evandro Freire": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Francisco da Silva Telles": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Jesus": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Lourenço Jorge": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-003",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Miguel Couto": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Nossa Senhora do Loreto": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Paulino Werneck": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Raphael de Paula Souza": {
+    "latitude": -22.9303222,
+    "longitude": -43.2538528,
+    "cep": "20541-170",
+    "bairro": "Andaraí",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Rocha Maia": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Souza Aguiar": {
+    "latitude": -22.9061883,
+    "longitude": -43.1872449,
+    "cep": "20211-350",
+    "bairro": "Centro",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Hospital Municipal Álvaro Ramos": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "sala 801"
+  },
+  "Instituto Municipal de Assistência à Saúde Juliano Moreira": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Instituto Municipal de Assistência à Saúde Nise da Silveira": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Instituto Municipal de Vigilância Sanitária, Vigilância de Zoonoses e de Inspeção Agropecuária": {
+    "latitude": -22.9448391,
+    "longitude": -43.356768,
+    "cep": "22763-010",
+    "bairro": "Pechincha",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Instituto Municipal Philippe Pinel": {
+    "latitude": -22.8643449,
+    "longitude": -43.3711988,
+    "cep": "21610-645",
+    "bairro": "Marechal Hermes",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Núcleo de Vigilância em Saúde": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Núcleo Técnico de Monitoramento dos Contratos de Gestão - RIOSAÚDE": {
+    "latitude": -22.9448391,
+    "longitude": -43.356768,
+    "cep": "22763-010",
+    "bairro": "Pechincha",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Ouvidoria": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Secretaria Executiva do Conselho Municipal de Saúde": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "818 - BL.1"
+  },
+  "Serviço de Recursos Humanos": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "SMS": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "sala 801"
+  },
+  "Subsecretaria de Atenção Hospitalar, Urgência e Emergência": {
+    "latitude": -22.9448391,
+    "longitude": -43.356768,
+    "cep": "22763-010",
+    "bairro": "Pechincha",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Subsecretaria de Gestão": {
+    "latitude": -22.9448391,
+    "longitude": -43.356768,
+    "cep": "22763-010",
+    "bairro": "Pechincha",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Subsecretaria de Promoção, Atenção Primária e Vigilância em Saúde": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Subsecretaria de Proteção e Defesa Civil": {
+    "latitude": -22.9448391,
+    "longitude": -43.356768,
+    "cep": "22763-010",
+    "bairro": "Pechincha",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Subsecretaria Executiva": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "Sala 701"
+  },
+  "Subsecretaria Geral": {
+    "latitude": -22.9101587,
+    "longitude": -43.2033722,
+    "cep": "20211-110",
+    "bairro": "Cidade Nova",
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "Bloco I Sala 701"
+  },
+  "Superintendência de Atenção Primária": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Superintendência de Hospitais Gerais e Especializados": {
+    "latitude": -22.9978477,
+    "longitude": -43.2396546,
+    "cep": "22450-221",
+    "bairro": "São Conrado",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Superintendência de Hospitais Pediátricos e Maternidades": {
+    "latitude": -22.9912423,
+    "longitude": -43.253297,
+    "cep": "22451-265",
+    "bairro": "",
+    "logradouro": "Estrada da Gávea",
+    "numero": "522",
+    "complemento": "Rocinha"
+  },
+  "Superintendência de Integração de Áreas de Planejamento": {
+    "latitude": -22.8855808,
+    "longitude": -43.2521024,
+    "cep": "20973-011",
+    "bairro": "Benfica",
+    "logradouro": "Avenida Dom Hélder Câmara",
+    "numero": "1390",
+    "complemento": "Manguinhos"
+  },
+  "Superintendência de Promoção da Saúde": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Superintendência de Saúde Mental": {
+    "latitude": -22.9229288,
+    "longitude": -43.3013463,
+    "cep": "22745-130",
+    "bairro": "Jacarepaguá",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Superintendência de Urgência e Emergência": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Superintendência de Vigilância em Saúde": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Unidade de Pronto Atendimento Alemão": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Unidade de Pronto Atendimento Cidade de Deus": {
+    "latitude": -22.9866953,
+    "longitude": -43.3654224,
+    "cep": "22775-002",
+    "bairro": "Barra da Tijuca",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Unidade de Pronto Atendimento Manguinhos": {
+    "latitude": -22.8107514,
+    "longitude": -43.1865792,
+    "cep": "21921-001",
+    "bairro": "Cacuia",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  },
+  "Unidade de Pronto Atendimento Rocinha": {
+    "latitude": -22.9776166,
+    "longitude": -43.2225374,
+    "cep": "22430-160",
+    "bairro": "Leblon",
+    "logradouro": "",
+    "numero": "",
+    "complemento": ""
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "mapas_disponiveis": [
+    {
+      "id": 1,
+      "nome": "Limites Administrativos Rio de Janeiro",
+      "descricao": "Divisão de bairros e regiões administrativas",
+      "source": "ArcGIS REST Service - PCRJ",
+      "url": "https://services.arcgis.com/OlP4dGNtIcnD3RYf/arcgis/rest/services/Limites_Administrativos/FeatureServer/0",
+      "tipo": "FeatureServer"
+    },
+    {
+      "id": 2,
+      "nome": "Cartografia Digital Rio de Janeiro",
+      "descricao": "Mapa base com informações cartográficas da cidade",
+      "source": "ArcGIS Hub - data.rio",
+      "url": "https://pcrj.maps.arcgis.com/sharing/rest/content/items/1104378b365844469540bea9482e8b6b/data",
+      "tipo": "Web Map"
+    },
+    {
+      "id": 3,
+      "nome": "Mapa Básico SIURB",
+      "descricao": "Mapa base da SIURB (Secretaria de Infraestrutura Urbana)",
+      "source": "ArcGIS Tiles - PCRJ",
+      "url": "https://tiles.arcgis.com/tiles/OlP4dGNtIcnD3RYf/arcgis/rest/services/Mapa_Basico_SIURB/MapServer",
+      "tipo": "Tiled Map Service"
+    }
+  ],
+  "coordenadas_rio_de_janeiro": {
+    "centro_cidade": {
+      "latitude": -22.9068,
+      "longitude": -43.1729,
+      "nome": "Centro - Cidade Nova"
+    },
+    "limites_estado": {
+      "norte": -20.0,
+      "sul": -23.42,
+      "leste": -40.2,
+      "oeste": -45.1
+    },
+    "bairros_principais": [
+      {
+        "nome": "Copacabana",
+        "latitude": -22.9829,
+        "longitude": -43.1863
+      },
+      {
+        "nome": "Ipanema",
+        "latitude": -22.9868,
+        "longitude": -43.2037
+      },
+      {
+        "nome": "Leblon",
+        "latitude": -23.0033,
+        "longitude": -43.2299
+      },
+      {
+        "nome": "Barra da Tijuca",
+        "latitude": -23.0052,
+        "longitude": -43.3682
+      },
+      {
+        "nome": "Centro",
+        "latitude": -22.9035,
+        "longitude": -43.1788
+      },
+      {
+        "nome": "Cidade Nova",
+        "latitude": -22.9068,
+        "longitude": -43.1729
+      },
+      {
+        "nome": "Benfica",
+        "latitude": -22.8533,
+        "longitude": -43.2899
+      },
+      {
+        "nome": "Maracanã",
+        "latitude": -22.9233,
+        "longitude": -43.2302
+      },
+      {
+        "nome": "Jacarepaguá",
+        "latitude": -22.9787,
+        "longitude": -43.3456
+      },
+      {
+        "nome": "Bangu",
+        "latitude": -22.7544,
+        "longitude": -43.4544
+      },
+      {
+        "nome": "Niterói",
+        "latitude": -22.8833,
+        "longitude": -43.1017
+      },
+      {
+        "nome": "São Gonçalo",
+        "latitude": -22.8333,
+        "longitude": -43.0667
+      },
+      {
+        "nome": "Cacuia",
+        "latitude": -22.7833,
+        "longitude": -43.1607
+      },
+      {
+        "nome": "Angra dos Reis",
+        "latitude": -23.0456,
+        "longitude": -44.3087
+      },
+      {
+        "nome": "Cabo Frio",
+        "latitude": -22.8761,
+        "longitude": -42.0211
+      }
+    ]
+  },
+  "referencias_api": {
+    "nota": "Para acessar os dados, use os seguintes endpoints:",
+    "query_example": "https://services.arcgis.com/OlP4dGNtIcnD3RYf/arcgis/rest/services/Limites_Administrativos/FeatureServer/0/query?where=1=1&outFields=*&f=json",
+    "geojson_alternativo": "Consulte https://github.com/tbrugz/geodata-br para GeoJSON do Brasil"
+  }
+}

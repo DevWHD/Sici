@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Mapa Interativo - Rio de Janeiro</title>
+
+    <!-- Load the ArcGIS Maps SDK for JavaScript from CDN -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.34/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.34/"></script>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="mainContainer">
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <div id="sidebar-header">
+          <img src="logo%20prefeitura.png" alt="Prefeitura do Rio de Janeiro" id="sidebar-logo" />
+        </div>
+        <button id="sidebar-toggle" style="position: absolute; top: 10px; right: 10px; z-index: 101;">&times;</button>
+        <div id="sidebar-content">
+          <!-- Organs Section Header -->
+          <div class="sidebar-section" style="padding: 16px 20px;">
+            <h3 style="color: #fff; margin: 0;">ÓRGÃOS (<span id="orgaos-count">0</span>)</h3>
+          </div>
+
+          <!-- Search/Filter Section -->
+          <div class="sidebar-section" style="padding: 12px 20px; border-bottom: none;">
+            <input 
+              type="text" 
+              id="orgao-search" 
+              placeholder="🔍 Buscar órgão..." 
+              class="search-input"
+            />
+          </div>
+
+          <!-- Organs List Section -->
+          <div class="sidebar-section" style="padding-top: 0;">
+            <div id="orgaos-list" class="orgaos-list"></div>
+          </div>
+
+          <!-- Legend Section -->
+          <div class="sidebar-section">
+            <h3>Legenda</h3>
+            <div class="legend-item">
+              <span class="legend-marker" style="background-color: #E27728;"></span>
+              <label>Marcadores SMS</label>
+            </div>
+            <div class="legend-item">
+              <span class="legend-marker" style="background-color: #007AC2;"></span>
+              <label>Bairros</label>
+            </div>
+            <div class="legend-item">
+              <span class="legend-border"></span>
+              <label>Contorno RJ</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botão para abrir sidebar -->
+      <button id="sidebar-open-btn">☰</button>
+
+      <!-- Mapa Container -->
+      <div id="mapContainer">
+        <div id="map"></div>
+
+        <div id="info-panel">
+          <button id="close-panel">&times;</button>
+          <div id="panel-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
