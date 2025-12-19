@@ -42,6 +42,9 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
   const savedTheme = localStorage.getItem("theme");
   if (savedTheme === "light") {
     setTheme(false);
+  } else {
+    // Garantir modo escuro por padrão
+    setTheme(true);
   }
 
   themeToggle.addEventListener("click", function(e) {
