@@ -63,6 +63,20 @@ body {
   margin: 0;
 }
 
+/* Toggle Units Button */
+#toggle-units {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+#toggle-units:hover {
+  background-color: #0056a0;
+  transform: scale(1.1);
+}
+
+#toggle-units:active {
+  transform: scale(0.95);
+}
+
 #sidebar-toggle {
   background: none;
   border: none;
@@ -110,13 +124,22 @@ body {
   line-height: 1.5;
 }
 
+/* SMS Button */
+.sms-button {
+  transition: background-color 0.2s;
+}
+
+.sms-button:hover {
+  background-color: #1a1a1a;
+}
+
 /* Search Input */
 .search-input {
   width: 100%;
   padding: 10px 12px;
   border: 1px solid #333;
   border-radius: 4px;
-  font-size: 13px;
+  font-size: 14px;
   outline: none;
   transition: border-color 0.2s;
   background-color: #1a1a1a;
@@ -147,7 +170,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s;
-  font-size: 13px;
+  font-size: 14px;
   color: #ddd;
 }
 
@@ -161,10 +184,11 @@ body {
   font-weight: 600;
   margin-bottom: 4px;
   color: #fff;
+  font-size: 14px;
 }
 
 .orgao-item-bairro {
-  font-size: 12px;
+  font-size: 13px;
   color: #999;
   margin-top: 4px;
 }

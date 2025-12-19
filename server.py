@@ -18,13 +18,16 @@ class MyHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
         return super().do_GET()
 
     def log_message(self, format, *args):
-        print(f"{args[0]} - - {self.log_date_time_string()} \"{args[1]}\" {args[2]}")
+        if len(args) >= 3:
+            print(f"{args[0]} - - {self.log_date_time_string()} \"{args[1]}\" {args[2]}")
+        else:
+            super().log_message(format, *args)
 
 os.chdir(DIRECTORY)
 
 with socketserver.TCPServer(("", PORT), MyHTTPRequestHandler) as httpd:
     print(f"✓ Servidor rodando em: http://localhost:{PORT}")
-    print(f"✓ Acesse: http://localhost:{PORT}/sketch.html")
+    print(f"✓ Acesse: http://localhost:{PORT}/index.html")
     print(f"✓ Pressione Ctrl+C para parar")
     try:
         httpd.serve_forever()

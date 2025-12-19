@@ -7,6 +7,44 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
   const sidebar = document.getElementById("sidebar");
   const sidebarToggle = document.getElementById("sidebar-toggle");
   const sidebarOpenBtn = document.getElementById("sidebar-open-btn");
+  const toggleUnitsBtn = document.getElementById("toggle-units");
+  const unitsSection = document.getElementById("units-section");
+
+  // Controlar toggle de unidades
+  toggleUnitsBtn.addEventListener("click", function(e) {
+    e.stopPropagation();
+    const isHidden = unitsSection.style.display === "none";
+    unitsSection.style.display = isHidden ? "block" : "none";
+    toggleUnitsBtn.textContent = isHidden ? "−" : "+";
+  });
+  
+  // Clique no SMS para ir ao marcador
+  const smsButton = document.querySelector('.sms-button');
+  if (smsButton) {
+    smsButton.addEventListener('click', function(e) {
+      // Se clicou no botão +, não fazer nada (deixar para toggleUnitsBtn)
+      if (e.target.closest('#toggle-units')) return;
+      
+      // Encontrar e focar no marcador SMS
+      const smsMarker = SMS_MARKERS.find(marker => marker.attributes && marker.attributes.nome === "SMS");
+      if (smsMarker) {
+        view.goTo({
+          target: smsMarker.geometry,
+          zoom: 16
+        });
+        
+        // Encontrar o dado SMS para mostrar no painel
+        if (ALL_ORGANS_DATA) {
+          const smsData = ALL_ORGANS_DATA.find(o => o.nome === "SMS");
+          if (smsData) {
+            setTimeout(() => {
+              showInfoPanel(smsData);
+            }, 500);
+          }
+        }
+      }
+    });
+  }
 
   // Controlar sidebar
   sidebarToggle.addEventListener("click", function() {
@@ -30,8 +68,8 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
   const view = new MapView({
     container: "map",
     map: map,
-    center: [-42.5, -21.9],
-    zoom: 8
+    center: [-43.2, -22.85],
+    zoom: 11
   });
 
   console.log('✓ View criado');
@@ -103,7 +141,12 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
     const orgaosCount = document.getElementById("orgaos-count");
     const searchInput = document.getElementById("orgao-search");
 
-    orgaosCount.textContent = orgaosData.length;
+    // Filtrar SMS das outras unidades
+    const smsUnit = orgaosData.find(o => o.nome === "SMS");
+    const otherUnits = orgaosData.filter(o => o.nome !== "SMS");
+    
+    // Atualizar contagem com o número de unidades (sem SMS)
+    orgaosCount.textContent = otherUnits.length;
 
     function renderOrgaos(filteredData) {
       orgaosList.innerHTML = '';
@@ -155,19 +198,19 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
       });
     }
 
-    // Initial render
-    renderOrgaos(orgaosData);
+    // Initial render (sem SMS)
+    renderOrgaos(otherUnits);
 
     // Search functionality
     searchInput.addEventListener('input', function() {
       const query = this.value.toLowerCase().trim();
       
       if (!query) {
-        renderOrgaos(orgaosData);
+        renderOrgaos(otherUnits);
         return;
       }
 
-      const filtered = orgaosData.filter(orgao => 
+      const filtered = otherUnits.filter(orgao => 
         orgao.nome.toLowerCase().includes(query) ||
         orgao.bairro.toLowerCase().includes(query) ||
         (orgao.titular && orgao.titular.toLowerCase().includes(query))
@@ -175,6 +218,31 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
 
       renderOrgaos(filtered);
     });
+    
+    // Adicionar SMS ao topo da sidebar para clicar
+    if (smsUnit) {
+      const smsButton = document.querySelector('.sidebar-section:has(h3:contains("SMS"))');
+      if (!smsButton) {
+        // Adicionar clique no SMS se necessário
+        const smsSection = document.querySelector('h3');
+        if (smsSection && smsSection.textContent.includes('SMS')) {
+          smsSection.parentElement.style.cursor = 'pointer';
+          smsSection.parentElement.addEventListener('click', function() {
+            // Zoom to SMS marker
+            const smsMarker = SMS_MARKERS.find(marker => marker.attributes.nome === "SMS");
+            if (smsMarker) {
+              view.goTo({
+                target: smsMarker.geometry,
+                zoom: 16
+              });
+              setTimeout(() => {
+                showInfoPanel(smsUnit);
+              }, 500);
+            }
+          });
+        }
+      }
+    }
   }
 
   // Adicionar marcador SMS
