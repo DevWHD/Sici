@@ -2,12 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -589,6 +596,7 @@ body {
 /* Responsivo */
 @media (max-width: 768px) {
   #sidebar {
+    width: 280px;
     position: absolute;
     height: 100%;
     transform: translateX(-100%);
@@ -600,5 +608,254 @@ body {
   
   #sidebar-open-btn.visible {
     display: flex;
+  }
+  
+  #sidebar-header {
+    height: 220px;
+  }
+  
+  #sidebar-logo {
+    height: 120px;
+  }
+  
+  #sici-title {
+    font-size: 16px;
+    padding: 0 8px;
+  }
+  
+  #theme-toggle {
+    width: 40px;
+    height: 22px;
+  }
+  
+  .search-input {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  .orgao-item {
+    padding: 10px 12px;
+    margin-bottom: 6px;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  html, body {
+    font-size: 14px;
+  }
+  
+  #sidebar {
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  #sidebar-header {
+    height: 200px;
+  }
+  
+  #sidebar-logo {
+    height: 100px;
+  }
+  
+  #sici-title {
+    font-size: 14px;
+    padding: 0 8px;
+    margin: 8px 0 0 0;
+    line-height: 1.2;
+  }
+  
+  #theme-toggle {
+    width: 38px;
+    height: 20px;
+    top: 8px;
+    left: 8px;
+  }
+  
+  #sidebar-toggle {
+    top: 8px;
+    right: 8px;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+  }
+  
+  #sidebar-open-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    top: 8px;
+    left: 8px;
+  }
+  
+  .sidebar-section {
+    padding: 10px 14px !important;
+  }
+  
+  .legend-bar {
+    padding: 8px 12px !important;
+  }
+  
+  .legend-bar > div:first-child {
+    font-size: 10px;
+  }
+  
+  .legend-bar span {
+    font-size: 10px;
+  }
+  
+  .sms-button {
+    padding: 10px 14px !important;
+  }
+  
+  .sms-button h3 {
+    font-size: 13px;
+  }
+  
+  #toggle-units {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+  }
+  
+  .search-input {
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: 4px;
+  }
+  
+  .orgao-item {
+    padding: 8px 10px;
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+  
+  .orgao-item-nome {
+    font-size: 12px;
+  }
+  
+  .orgao-item-bairro {
+    font-size: 11px;
+  }
+  
+  #info-panel {
+    width: 90vw;
+    max-width: 320px;
+    right: 5vw;
+    bottom: 10px;
+    max-height: 50vh;
+    border-radius: 8px;
+  }
+  
+  #close-panel {
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+  }
+  
+  #panel-content {
+    font-size: 13px;
+    padding: 12px;
+    max-height: calc(50vh - 40px);
+  }
+}
+
+/* Smartphones Pequenos */
+@media (max-width: 360px) {
+  #sidebar {
+    width: 100%;
+    max-width: 260px;
+  }
+  
+  #sidebar-header {
+    height: 180px;
+  }
+  
+  #sidebar-logo {
+    height: 80px;
+  }
+  
+  #sici-title {
+    font-size: 12px;
+    padding: 0 6px;
+    margin: 6px 0 0 0;
+  }
+  
+  .sidebar-section {
+    padding: 8px 12px !important;
+  }
+  
+  .legend-bar > div:first-child {
+    font-size: 9px;
+  }
+  
+  .legend-bar span {
+    font-size: 9px;
+  }
+  
+  .search-input {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+  
+  .orgao-item {
+    padding: 6px 8px;
+    margin-bottom: 3px;
+    font-size: 11px;
+  }
+  
+  #info-panel {
+    width: 95vw;
+    max-width: 280px;
+    right: 2.5vw;
+    max-height: 45vh;
+  }
+  
+  #panel-content {
+    font-size: 12px;
+    padding: 10px;
+    max-height: calc(45vh - 40px);
+  }
+}
+
+/* Orientação Paisagem */
+@media (max-height: 600px) and (orientation: landscape) {
+  #sidebar-header {
+    height: 150px;
+  }
+  
+  #sidebar-logo {
+    height: 80px;
+  }
+  
+  #sici-title {
+    font-size: 12px;
+    margin: 4px 0 0 0;
+  }
+  
+  .sidebar-section {
+    padding: 8px 14px !important;
+  }
+  
+  #info-panel {
+    max-height: 80vh;
+  }
+}
+
+/* Suporte para devices com notch */
+@supports (padding: max(0px)) {
+  #sidebar {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
+  
+  #sidebar-open-btn {
+    left: max(10px, env(safe-area-inset-left));
+    top: max(10px, env(safe-area-inset-top));
+  }
+  
+  #theme-toggle {
+    left: max(10px, env(safe-area-inset-left));
+    top: max(10px, env(safe-area-inset-top));
   }
 }
