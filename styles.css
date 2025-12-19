@@ -396,8 +396,10 @@ body {
 /* Botão para abrir sidebar */
 #sidebar-open-btn {
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left: auto;
+  bottom: 20px;
+  right: 20px;
+  top: auto;
   z-index: 99;
   width: 40px;
   height: 40px;
@@ -418,6 +420,7 @@ body {
 }
 
 #sidebar-open-btn.visible {
+  display: flex;
   display: flex;
 }
 
@@ -594,21 +597,23 @@ body {
   color: #333333 !important;
 }
 
-/* Responsivo */
+/* Tablets e Smartphones */
 @media (max-width: 768px) {
   #sidebar {
     width: 280px;
     position: absolute;
     height: 100%;
+    transform: translateX(0);
+    left: 0;
+    top: 0;
+  }
+  
+  #sidebar.hidden {
     transform: translateX(-100%);
   }
   
-  #sidebar.visible {
-    transform: translateX(0);
-  }
-  
   #sidebar-open-btn {
-    display: flex;
+    display: none;
   }
   
   #sidebar-open-btn.visible {
@@ -712,8 +717,8 @@ body {
     width: 36px;
     height: 36px;
     font-size: 18px;
-    top: 8px;
-    left: 8px;
+    bottom: 20px;
+    right: 20px;
   }
   
   .sidebar-section {
