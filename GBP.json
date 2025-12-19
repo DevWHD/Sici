@@ -1,0 +1,30 @@
+{
+  "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+  "decreto": "Decreto N° 57011 de 21/10/2025 )",
+  "geral": {
+    "titular": "Fernando de Menezes Duba",
+    "cargo": "Coordenador Especial do Gabinete do Prefeito"
+  },
+  "endereco": {
+    "logradouro": "Rua Afonso Cavalcanti",
+    "numero": "455",
+    "complemento": "13º andar",
+    "bairro": "Cidade Nova",
+    "cep": "20211-110"
+  },
+  "comunicacoes": [
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "2976-1099"
+    },
+    {
+      "tipo": "Telefone corporativo",
+      "valor": "2976-1360"
+    },
+    {
+      "tipo": "E-mail corporativo",
+      "valor": "fernando.duba@prefeitura.rio"
+    }
+  ],
+  "timestamp": "2025-12-19T13:27:21.566708"
+}

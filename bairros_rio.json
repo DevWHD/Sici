@@ -144,6 +144,114 @@
         "type": "Point",
         "coordinates": [-43.3089, -23.0167]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Bangu",
+        "regiao": "Zona Oeste",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.4636, -22.8811]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Campo Grande",
+        "regiao": "Zona Oeste",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.5728, -22.9033]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ipanema",
+        "regiao": "Zona Sul",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.1912, -22.9870]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Jardim Carioca",
+        "regiao": "Zona Oeste",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.1989, -22.8016]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Lagoa",
+        "regiao": "Zona Sul",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.2173, -22.9709]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Laranjeiras",
+        "regiao": "Zona Sul",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.1812, -22.9313]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Oswaldo Cruz",
+        "regiao": "Zona Norte",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.3539, -22.8667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Santa Cruz",
+        "regiao": "Zona Oeste",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.6948, -22.9230]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Tijuca",
+        "regiao": "Zona Norte",
+        "tipo": "bairro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.2402, -22.9321]
+      }
     }
   ]
 }

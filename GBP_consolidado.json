@@ -1,0 +1,1088 @@
+{
+  "raiz": {
+    "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+    "decreto": "Decreto N° 57011 de 21/10/2025 )",
+    "geral": {
+      "titular": "Fernando de Menezes Duba",
+      "cargo": "Coordenador Especial do Gabinete do Prefeito"
+    },
+    "endereco": {
+      "logradouro": "Rua Afonso Cavalcanti",
+      "numero": "455",
+      "complemento": "13º andar",
+      "bairro": "Cidade Nova",
+      "cep": "20211-110"
+    },
+    "comunicacoes": [
+      {
+        "tipo": "Telefone corporativo",
+        "valor": "2976-1099"
+      },
+      {
+        "tipo": "Telefone corporativo",
+        "valor": "2976-1360"
+      },
+      {
+        "tipo": "E-mail corporativo",
+        "valor": "fernando.duba@prefeitura.rio"
+      }
+    ],
+    "timestamp": "2025-12-19T13:27:21.566708"
+  },
+  "filhos": [
+    {
+      "nome": "Assessoria de Apoio Operacional do Gabinete do Prefeito",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Ana Cristina Boldi Fernandes",
+          "cargo": "Assessor Chefe I"
+        },
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13º andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-1004"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "ana.boldi@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:28:36.297168"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Assessoria de Assuntos Especiais",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Nilton Caldeira da Fonseca Filho",
+          "cargo": "Assessor Chefe Especial I"
+        },
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13° andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "nilton.caldeira@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:27:59.522596"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Assessoria de Controle de Diligências",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Michelle Rodrigues Schinke",
+          "cargo": "Assessor Chefe"
+        },
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13º Andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-2817"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-3154"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-2679"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "gabinetedoprefeitodiligencias@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:28:17.899341"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Assessoria de Estratégias Digitais",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Lucas Calil Guimarães Silva",
+          "cargo": "Assessor Chefe"
+        },
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13º andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-2812"
+          }
+        ],
+        "timestamp": "2025-12-19T13:28:24.033454"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Assessoria Especial de Estratégia e Políticas Públicas",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Guilherme Victor Testoni Boisson",
+          "cargo": "Assessor Chefe"
+        },
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13º andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "guilherme.boisson@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:27:53.409282"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Assessoria Especial do Gabinete do Prefeito",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Eduardo Braga Goldenberg",
+          "cargo": "Assessor Chefe Técnico"
+        },
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13º andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-2812"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "eduardo.braga@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:28:05.650798"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Assessoria Técnica de Assuntos Urbanísticos",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Maria Madalena Saint Martin de Astacio",
+          "cargo": "Assessor Chefe"
+        },
+        "endereco": {
+          "logradouro": "Rua Gago Coutinho",
+          "numero": "52",
+          "complemento": "4º Andar",
+          "bairro": "Laranjeiras",
+          "cep": "22221-070"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2088-1464"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "maria.madalena@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:28:11.762632"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Assessoria Técnica do Gabinete do Prefeito",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Marcela Odette Ferreira Barboza",
+          "cargo": "Assessor Chefe I"
+        },
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13º andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-1004"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "marcela.barboza@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:28:30.163871"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Centro de Operações e Resiliência",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Thiago Curvello Pinto",
+          "cargo": "Chefe Executivo de Resiliência e Operações"
+        },
+        "endereco": {
+          "bairro": "Cidade Nova",
+          "cep": "20211-225"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-4500"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "contato@centrodeoperacoesrio.com.br"
+          }
+        ],
+        "timestamp": "2025-12-19T13:28:44.459039"
+      },
+      "filhos": [
+        {
+          "nome": "Assessoria de Comunicação",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Leonardo da Silva Cantalice",
+              "cargo": "Assessor Chefe I"
+            },
+            "endereco": {
+              "bairro": "Cidade Nova",
+              "cep": "20211-225"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-4500"
+              },
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-4700"
+              }
+            ],
+            "timestamp": "2025-12-19T13:28:51.800244"
+          },
+          "filhos": []
+        },
+        {
+          "nome": "Assessoria de Planejamento e Resiliência",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Ana Carla Badaró Moreira Prado",
+              "cargo": "Assessor Chefe"
+            },
+            "endereco": {
+              "bairro": "Cidade Nova",
+              "cep": "20211-225"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-4500"
+              },
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-4700"
+              }
+            ],
+            "timestamp": "2025-12-19T13:28:45.633328"
+          },
+          "filhos": []
+        },
+        {
+          "nome": "Coordenadoria de Apoio Aéreo",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Valeria Olivieri Cavalcante Gomes",
+              "cargo": "Coordenador I"
+            },
+            "endereco": {
+              "logradouro": "Avenida Borges de Medeiros",
+              "numero": "2002",
+              "complemento": "Heliponto da Prefeitura",
+              "bairro": "Lagoa",
+              "cep": "22470-002"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2034-4455"
+              }
+            ],
+            "timestamp": "2025-12-19T13:29:22.405406"
+          },
+          "filhos": []
+        },
+        {
+          "nome": "Coordenadoria de Informações e Tecnologia",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Pablo Cesar de Azeredo Coutinho",
+              "cargo": "Coordenador I"
+            },
+            "endereco": {
+              "bairro": "Cidade Nova",
+              "cep": "20211-225"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976.4500"
+              },
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976.4700"
+              }
+            ],
+            "timestamp": "2025-12-19T13:29:10.212142"
+          },
+          "filhos": []
+        },
+        {
+          "nome": "Coordenadoria de Operações",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Julio Cesar Cagnin Martins",
+              "cargo": "Coordenador I"
+            },
+            "endereco": {
+              "bairro": "Cidade Nova",
+              "cep": "20211-225"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976.4500"
+              },
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976.4700"
+              }
+            ],
+            "timestamp": "2025-12-19T13:29:16.281808"
+          },
+          "filhos": []
+        },
+        {
+          "nome": "Coordenadoria Técnica de Infraestrutura e Logística",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Maíra Oliveira da Silva",
+              "cargo": "Coordenador Técnico"
+            },
+            "endereco": {
+              "bairro": "Cidade Nova",
+              "cep": "20211-225"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-4500"
+              },
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-4700"
+              }
+            ],
+            "timestamp": "2025-12-19T13:28:57.931092"
+          },
+          "filhos": []
+        },
+        {
+          "nome": "Coordenadoria Técnica de Inovação",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Alexandre Goldfeld Cardeman",
+              "cargo": "Coordenador Técnico"
+            },
+            "endereco": {
+              "bairro": "Cidade Nova",
+              "cep": "20211-225"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-4500"
+              },
+              {
+                "tipo": "E-mail corporativo",
+                "valor": "contato@centrodeoperacoesrio.com.br"
+              }
+            ],
+            "timestamp": "2025-12-19T13:29:04.065335"
+          },
+          "filhos": []
+        }
+      ]
+    },
+    {
+      "nome": "Comissão Especial de Acompanhamento de Parcerias Público-Privadas, Concessões e Projetos Estratégicos",
+      "info": null,
+      "filhos": [
+        {
+          "nome": "Secretaria Executiva da Comissão",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Vago",
+              "cargo": "Secretário Executivo III"
+            },
+            "endereco": {
+              "logradouro": "Rua Afonso Cavalcanti",
+              "numero": "455",
+              "complemento": "13º andar",
+              "bairro": "Cidade Nova",
+              "cep": "20211-110"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-1099"
+              }
+            ],
+            "timestamp": "2025-12-19T13:27:38.055060"
+          },
+          "filhos": []
+        }
+      ]
+    },
+    {
+      "nome": "Conselho da Cidade",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13º andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-1099"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-1360"
+          }
+        ],
+        "timestamp": "2025-12-19T13:27:22.665627"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Conselho Municipal de Favelas",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "endereco": {
+          "logradouro": "Rua Afonso Cavalcanti",
+          "numero": "455",
+          "complemento": "13º andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-110"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-1099"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-1360"
+          }
+        ],
+        "timestamp": "2025-12-19T13:27:28.796583"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria de Relações Internacionais",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Marli Ferreira Lima Peçanha",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "logradouro": "Rua Ulisses Guimarães",
+          "numero": "16",
+          "complemento": "2° andar",
+          "bairro": "Cidade Nova",
+          "cep": "20211-225"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-9335"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "subgrandescomplexosPCRJ@gmail.com"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "marlipecanha@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:43.950214"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria do Cerimonial",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Robson Gomes Santos",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "bairro": "Bangu",
+          "cep": "21810-031"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2174-5912"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "subgbangu@hotmail.com"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:50.106831"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ da Barra da Tijuca, Recreio e Vargens",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Leonardo da Silva Cantalice",
+          "cargo": "Assessor Chefe I"
+        },
+        "endereco": {
+          "bairro": "Cidade Nova",
+          "cep": "20211-225"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-4500"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-4700"
+          }
+        ],
+        "timestamp": "2025-12-19T13:29:28.532565"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ da Tijuca",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Maíra Oliveira da Silva",
+          "cargo": "Coordenador Técnico"
+        },
+        "endereco": {
+          "bairro": "Cidade Nova",
+          "cep": "20211-225"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-4500"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-4700"
+          }
+        ],
+        "timestamp": "2025-12-19T13:29:34.668168"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ da Zona Norte",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Alexandre Goldfeld Cardeman",
+          "cargo": "Coordenador Técnico"
+        },
+        "endereco": {
+          "bairro": "Cidade Nova",
+          "cep": "20211-225"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976-4500"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "contato@centrodeoperacoesrio.com.br"
+          }
+        ],
+        "timestamp": "2025-12-19T13:29:40.796265"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ da Zona Oeste I",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Douglas de Souza Araujo",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "bairro": "Oswaldo Cruz",
+          "cep": "21550-000"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "3085-8352"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "subprefeiturazn@gmail.com"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "douglasaraujo@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:17.484067"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ da Zona Oeste II",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Bernardo Murilo Graça Rubião",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "logradouro": "Rua Francisco Otaviano",
+          "numero": "125",
+          "complemento": "Parque Garota de Ipanema",
+          "cep": "22080-046"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "gabinete.subzonasul@gmail.com"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "bernardo.rubiao@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:23.590636"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ da Zona Oeste III",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Rodrigo Toledo Rodrigues",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "bairro": "Jardim Carioca",
+          "cep": "21920-257"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "3393-1756"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "3393-1713"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "3393-1968"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "subprefeituradasilhas@gmail.com"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "rodrigo.toledo@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:29.692692"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ da Zona Sul",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Pablo Cesar de Azeredo Coutinho",
+          "cargo": "Coordenador I"
+        },
+        "endereco": {
+          "bairro": "Cidade Nova",
+          "cep": "20211-225"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976.4500"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976.4700"
+          }
+        ],
+        "timestamp": "2025-12-19T13:29:46.915974"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ das Ilhas do Governador_Fundão_Paquetá",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Julio Cesar Cagnin Martins",
+          "cargo": "Coordenador I"
+        },
+        "endereco": {
+          "bairro": "Cidade Nova",
+          "cep": "20211-225"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976.4500"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2976.4700"
+          }
+        ],
+        "timestamp": "2025-12-19T13:29:53.066977"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ de Jacarepaguá",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Leandro Marques",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "bairro": "Barra da Tijuca",
+          "cep": "22775-002"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2431-1829"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "subprefeitura.ap4.2@gmail.com"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "leandro.marques@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:05.277785"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ do Centro e Centro Histórico",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Valeria Olivieri Cavalcante Gomes",
+          "cargo": "Coordenador I"
+        },
+        "endereco": {
+          "logradouro": "Avenida Borges de Medeiros",
+          "numero": "2002",
+          "complemento": "Heliponto da Prefeitura",
+          "bairro": "Lagoa",
+          "cep": "22470-002"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2034-4455"
+          }
+        ],
+        "timestamp": "2025-12-19T13:29:59.147520"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Especial _Subprefeitura_ dos Grandes Complexos",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Higor dos Santos Gomes",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "bairro": "Tijuca",
+          "cep": "20520-051"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2571-1749"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "subgtj.rio@gmail.com"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "higor.gomes@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:11.354359"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Coordenadoria Geral de Administração",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Alberto Jacob Szafran",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "logradouro": "Rua da Constituição",
+          "numero": "34",
+          "complemento": "4º andar",
+          "bairro": "Centro",
+          "cep": "20060-010"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2224-2728"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "2224-2835"
+          },
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "rio.subprefeituracentro@gmail.com"
+          },
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "alberto.szafran@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:37.833014"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Instituto Memorial do Holocausto",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Bruno Ramos Dias Rozena",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "bairro": "Campo Grande",
+          "cep": "23070-170"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "3592-0141"
+          },
+          {
+            "tipo": "Telefone corporativo",
+            "valor": "subzo.rio@gmail.com"
+          }
+        ],
+        "timestamp": "2025-12-19T13:30:56.214841"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Núcleo de Apoio Operacional",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Edinelson Silva de Lima",
+          "cargo": "Coordenador Especial \"Subprefeito\""
+        },
+        "endereco": {
+          "bairro": "Santa Cruz",
+          "cep": "23550-026"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "E-mail pessoal",
+            "valor": "edinelson.lima@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:31:02.332076"
+      },
+      "filhos": []
+    },
+    {
+      "nome": "Sistema de Segurança Municipal",
+      "info": {
+        "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+        "decreto": "Decreto N° 57011 de 21/10/2025 )",
+        "geral": {
+          "titular": "Thiago Ramos Dias",
+          "cargo": "Secretário Geral"
+        },
+        "comunicacoes": [
+          {
+            "tipo": "E-mail corporativo",
+            "valor": "thiago.dias@prefeitura.rio"
+          }
+        ],
+        "timestamp": "2025-12-19T13:27:46.221438"
+      },
+      "filhos": [
+        {
+          "nome": "Assessoria Especial de Integração e Políticas de Segurança Pública",
+          "info": {
+            "titulo": "PREFEITURA DA CIDADE DO RIO DE JANEIRO\n\nSecretaria Municipal da Casa Civil\n\nCoordenadoria Geral de Gestão Institucional\n\n\t\nSICI\nSistema Integrado de Codificação Institucional",
+            "decreto": "Decreto N° 57011 de 21/10/2025 )",
+            "geral": {
+              "titular": "Luiz Henrique Marinho Pires",
+              "cargo": "Assessor Chefe"
+            },
+            "endereco": {
+              "logradouro": "Rua Afonso Cavalcanti",
+              "numero": "455",
+              "complemento": "13º andar",
+              "bairro": "Cidade Nova",
+              "cep": "20211-110"
+            },
+            "comunicacoes": [
+              {
+                "tipo": "Telefone corporativo",
+                "valor": "2976-2812"
+              }
+            ],
+            "timestamp": "2025-12-19T13:27:47.316368"
+          },
+          "filhos": []
+        }
+      ]
+    }
+  ],
+  "timestamp": "2025-12-19T13:42:40.608081"
+}

@@ -33,18 +33,27 @@
             <div style="font-size: 11px; color: #ccc; margin-bottom: 6px; font-weight: 600;">LEGENDA</div>
             <div style="display: flex; flex-direction: column; gap: 4px;">
               <div style="display: flex; align-items: center; gap: 6px; font-size: 11px;">
-                <span style="width: 10px; height: 10px; background-color: #E27728; border-radius: 50%;"></span>
+                <span style="width: 10px; height: 10px; background-color: #228B22; border-radius: 50%;"></span>
                 <span style="color: #ccc;">Unidades SMS</span>
               </div>
               <div style="display: flex; align-items: center; gap: 6px; font-size: 11px;">
-                <span style="width: 10px; height: 10px; background-color: #007AC2; border-radius: 50%;"></span>
-                <span style="color: #ccc;">Bairros</span>
+                <span style="width: 10px; height: 10px; background-color: #FFA500; border-radius: 50%;"></span>
+                <span style="color: #ccc;">Órgãos GBP</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px; font-size: 11px;">
+                <span style="width: 10px; height: 10px; background-color: #DC143C; border-radius: 50%;"></span>
+                <span style="color: #ccc;">PCRJ</span>
               </div>
               <div style="display: flex; align-items: center; gap: 6px; font-size: 11px;">
                 <span style="width: 16px; height: 1.5px; background-color: #003399;"></span>
                 <span style="color: #ccc;">Contorno RJ</span>
               </div>
             </div>
+          </div>
+
+          <!-- PCRJ Section Header (não expansível - clicável) -->
+          <div class="sidebar-section pcrj-button" style="padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+            <h3 style="color: #fff; margin: 0; font-size: 14px;">PCRJ</h3>
           </div>
 
           <!-- SMS Section Header -->
@@ -60,21 +69,50 @@
               <h3 style="color: #fff; margin: 0; font-size: 14px;">UNIDADES (<span id="orgaos-count">0</span>)</h3>
             </div>
 
-          <!-- Search/Filter Section -->
-          <div class="sidebar-section" style="padding: 12px 20px; border-bottom: none;">
-            <input 
-              type="text" 
-              id="orgao-search" 
-              placeholder="🔍 Buscar unidade..." 
-              class="search-input"
-            />
+            <!-- Search/Filter Section -->
+            <div class="sidebar-section" style="padding: 12px 20px; border-bottom: none;">
+              <input 
+                type="text" 
+                id="orgao-search" 
+                placeholder="🔍 Buscar unidade..." 
+                class="search-input"
+              />
+            </div>
+
+            <!-- Organs List Section -->
+            <div class="sidebar-section" style="padding-top: 0; flex: 1; overflow-y: auto;">
+              <div id="orgaos-list" class="orgaos-list"></div>
+            </div>
+          </div> <!-- Fecha units-section -->
+
+          <!-- GBP Section Header -->
+          <div class="sidebar-section gbp-button" style="padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+            <h3 style="color: #fff; margin: 0; font-size: 14px;">GBP</h3>
+            <button id="toggle-gbp" style="background-color: #E27728; color: #fff; border: none; border-radius: 50%; width: 28px; height: 28px; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center;">+</button>
           </div>
 
-          <!-- Organs List Section -->
-          <div class="sidebar-section" style="padding-top: 0; flex: 1; overflow-y: auto;">
-            <div id="orgaos-list" class="orgaos-list"></div>
-          </div>
-          </div> <!-- Fecha units-section -->
+          <!-- GBP Section (collapsible) -->
+          <div id="gbp-section" style="display: none;">
+            <!-- GBP Organs Section Header -->
+            <div class="sidebar-section" style="padding: 14px 20px;">
+              <h3 style="color: #fff; margin: 0; font-size: 14px;">ÓRGÃOS (<span id="gbp-count">0</span>)</h3>
+            </div>
+
+            <!-- Search/Filter Section -->
+            <div class="sidebar-section" style="padding: 12px 20px; border-bottom: none;">
+              <input 
+                type="text" 
+                id="gbp-search" 
+                placeholder="🔍 Buscar órgão..." 
+                class="search-input"
+              />
+            </div>
+
+            <!-- GBP List Section -->
+            <div class="sidebar-section" style="padding-top: 0; flex: 1; overflow-y: auto;">
+              <div id="gbp-list" class="gbp-list"></div>
+            </div>
+          </div> <!-- Fecha gbp-section -->
         </div>
       </div>
 
