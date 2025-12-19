@@ -140,8 +140,8 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
       // Se clicou no botão +, não fazer nada (deixar para toggleGbpBtn)
       if (e.target.closest('#toggle-gbp')) return;
       
-      // Encontrar e focar no primeiro marcador GBP
-      const gbpMarker = GBP_MARKERS.find(marker => marker.attributes && marker.attributes.tipo === "gbp");
+      // Encontrar e focar no marcador GBP principal (raiz)
+      const gbpMarker = GBP_MARKERS.find(marker => marker.attributes && marker.attributes.nome === "GBP");
       if (gbpMarker) {
         view.goTo({
           target: gbpMarker.geometry,
@@ -150,13 +150,13 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
           easing: "ease-in-out"
         }).then(() => {
           // Mostrar informações do GBP
-          if (ALL_GBP_DATA && ALL_GBP_DATA.length > 0) {
-            showInfoPanel(ALL_GBP_DATA[0]);
+          if (ALL_GBP_DATA) {
+            showInfoPanel(ALL_GBP_DATA);
           }
         }).catch((error) => {
           console.warn('Animação GBP interrompida:', error);
-          if (ALL_GBP_DATA && ALL_GBP_DATA.length > 0) {
-            showInfoPanel(ALL_GBP_DATA[0]);
+          if (ALL_GBP_DATA) {
+            showInfoPanel(ALL_GBP_DATA);
           }
         });
       }
@@ -383,6 +383,7 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
     
     // Extrair órgãos do JSON - raiz + filhos
     const gbpOrgaos = [];
+    let gbpRaiz = null;
     
     // Adicionar raiz como órgão principal
     if (gbpData.raiz) {
@@ -401,11 +402,11 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
         longitude: coordsInfo?.longitude || -43.2033722,
         tipo: 'gbp'
       };
-      gbpOrgaos.push(raizData);
+      gbpRaiz = raizData;
       addGBPMarker(raizData);
     }
     
-    // Adicionar filhos
+    // Adicionar filhos (sem o GBP raiz na lista)
     if (gbpData.filhos && Array.isArray(gbpData.filhos)) {
       gbpData.filhos.forEach(filho => {
         const coordsInfo = coordsData ? coordsData[filho.nome] : null;
@@ -427,9 +428,10 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
       });
     }
     
-    // Guardar dados para usar ao clicar no header
-    ALL_GBP_DATA = gbpOrgaos;
+    // Guardar dados raiz para usar ao clicar no header
+    ALL_GBP_DATA = gbpRaiz;
     
+    // Atualizar contagem com apenas os filhos (sem GBP)
     gbpCount.textContent = gbpOrgaos.length;
 
     function renderGBP(filteredData) {
