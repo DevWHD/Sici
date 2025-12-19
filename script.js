@@ -9,8 +9,48 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
   const sidebarOpenBtn = document.getElementById("sidebar-open-btn");
   const toggleUnitsBtn = document.getElementById("toggle-units");
   const unitsSection = document.getElementById("units-section");
+  const themeToggle = document.getElementById("theme-toggle");
+  const sidebarLogo = document.getElementById("sidebar-logo");
+
+  // Tema claro/escuro
+  let isDarkMode = true;
+
+  function setTheme(isDark) {
+    isDarkMode = isDark;
+    
+    // Aplicar fade out
+    sidebarLogo.style.opacity = '0';
+    
+    setTimeout(() => {
+      if (isDark) {
+        sidebar.classList.remove("light-mode");
+        sidebarLogo.src = "logo%20prefeitura.png";
+      } else {
+        sidebar.classList.add("light-mode");
+        sidebarLogo.src = "logo%20da%20prefeitura%20white.png";
+      }
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+      
+      // Aplicar fade in
+      sidebarLogo.style.opacity = '1';
+    }, 250);
+  }
+
+  // Carregar tema salvo ou usar padrão (escuro)
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "light") {
+    setTheme(false);
+  }
+
+  themeToggle.addEventListener("click", function(e) {
+    e.stopPropagation();
+    setTheme(!isDarkMode);
+  });
 
   // Controlar toggle de unidades
+  // Botão inicia com "+" já que a seção começa fechada
+  toggleUnitsBtn.textContent = "+";
+  
   toggleUnitsBtn.addEventListener("click", function(e) {
     e.stopPropagation();
     const isHidden = unitsSection.style.display === "none";
@@ -30,18 +70,26 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
       if (smsMarker) {
         view.goTo({
           target: smsMarker.geometry,
-          zoom: 16
-        });
-        
-        // Encontrar o dado SMS para mostrar no painel
-        if (ALL_ORGANS_DATA) {
-          const smsData = ALL_ORGANS_DATA.find(o => o.nome === "SMS");
-          if (smsData) {
-            setTimeout(() => {
+          zoom: 16,
+          duration: 1500,
+          easing: "ease-in-out"
+        }).then(() => {
+          // Encontrar o dado SMS para mostrar no painel
+          if (ALL_ORGANS_DATA) {
+            const smsData = ALL_ORGANS_DATA.find(o => o.nome === "SMS");
+            if (smsData) {
               showInfoPanel(smsData);
-            }, 500);
+            }
           }
-        }
+        }).catch((error) => {
+          console.warn('Animação SMS interrompida:', error);
+          if (ALL_ORGANS_DATA) {
+            const smsData = ALL_ORGANS_DATA.find(o => o.nome === "SMS");
+            if (smsData) {
+              showInfoPanel(smsData);
+            }
+          }
+        });
       }
     });
   }
@@ -161,29 +209,38 @@ require(["esri/Map", "esri/views/MapView", "esri/layers/GeoJSONLayer", "esri/Gra
         item.addEventListener('click', function() {
           // Find the exact marker for this organ
           const matchingMarker = SMS_MARKERS.find(marker => 
-            marker.attributes.nome === orgao.nome
+            marker.attributes && marker.attributes.nome === orgao.nome
           );
 
-          if (matchingMarker) {
-            // Zoom to marker on map
-            view.goTo({
-              target: matchingMarker.geometry,
-              zoom: 16
-            });
+          let targetGeometry = null;
 
-            // Highlight the marker
-            setTimeout(() => {
-              showInfoPanel(orgao);
-            }, 500);
-          } else {
-            // Fallback: zoom to coordinates
+          if (matchingMarker && matchingMarker.geometry) {
+            targetGeometry = matchingMarker.geometry;
+          } else if (orgao.longitude && orgao.latitude) {
+            targetGeometry = {
+              type: "point",
+              x: orgao.longitude,
+              y: orgao.latitude
+            };
+          }
+
+          if (targetGeometry) {
+            // Zoom to target with animation
             view.goTo({
-              target: {
-                x: orgao.longitude,
-                y: orgao.latitude
-              },
-              zoom: 16
+              target: targetGeometry,
+              zoom: 16,
+              duration: 1500,
+              easing: "ease-in-out"
+            }).then(() => {
+              // Animation completed successfully
+              showInfoPanel(orgao);
+            }).catch((error) => {
+              // If animation fails, show panel anyway
+              console.warn('Animação interrompida:', error);
+              showInfoPanel(orgao);
             });
+          } else {
+            // Se não tiver coordenadas, mostrar apenas o painel
             showInfoPanel(orgao);
           }
           
